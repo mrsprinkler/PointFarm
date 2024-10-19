@@ -1,10 +1,10 @@
 {
    "READ ME": "turn auto_fill_emails on to generate emails with the same prefix.",
-   "Read ME": "For example: example1@outlook.com and example2@outlook.com, but {} where the number is.",
-   "Read Me": "THEY MUST HAVE THE SAME PASSWORD",
+   "Read ME": "For example: example1@outlook.com and example2@outlook.com, but {} where the number is. Goes from format_start to format_end",
+   "Read Me": "FORMATTED PASSWORDS MUST HAVE THE SAME PASSWORD",
    "auto_fill_emails": true,
-   "formated_email": "mdbamianbot{}@outlook.com",
-   "password": "mb400343",
+   "formated_email": "EMAILPATTERN{}@outlook.com",
+   "password": "PASSWORD TO PATTERN",
    "format_start": 1,
    "format_end": 30,
    "delay_between_emails": 1000,
@@ -13,28 +13,8 @@
    "stay_open": false,
    "emails": [
       {
-         "email": "mdbamian@outlook.com",
-         "password": "Suck my balls",
-         "disabled": false
-      },
-      {
-         "email": "mdbamian@gmail.com",
-         "password": "mb400343",
-         "disabled": false
-      },
-      {
-         "email": "ammar.fam@outlook.com",
-         "password": "mb400343",
-         "disabled": false
-      },
-      {
-         "email": "usersally.2@outlook.com",
-         "password": "mb400343",
-         "disabled": false
-      },
-      {
-         "email": "mdbamianbot@outlook.com",
-         "password": "mb400343",
+         "email": "EMAIL@outlook.com",
+         "password": "PASSWORD",
          "disabled": false
       }
    ]
